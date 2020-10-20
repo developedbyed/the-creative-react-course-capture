@@ -18,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <GlobalStyle />
+
       <Nav />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.pathname}>
